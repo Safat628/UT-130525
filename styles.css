@@ -1214,6 +1214,22 @@ h4 {
     margin-bottom: 20px;
   }
 }
+@media (min-width: 769px) {
+  .future-solutions.minimal .solutions-grid {
+    justify-content: center;
+  }
+
+  .future-solutions.minimal .solutions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .future-solutions.minimal .solution-card {
+    flex: 1 1 280px;
+    max-width: 350px;
+  }
+}
 
 /* ====== Solution Section CSS END ====== */
 
