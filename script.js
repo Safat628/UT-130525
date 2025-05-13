@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
       this.reset();
     });
   }
-  
+
   // ===== Location switching START =====
   function switchToLocation(location) {
     document
@@ -121,12 +121,12 @@ document.addEventListener("DOMContentLoaded", function () {
     home: "UthsoTracer | Home",
     about1: "UthsoTracer | About",
     solution: "UthsoTracer | Solution",
-    contact: "UthsoTracer | Contact"
+    contact: "UthsoTracer | Contact",
   };
 
   function updateTitle() {
     let currentSection = "";
-    const scrollPosition = window.scrollY + (window.innerHeight / 2);
+    const scrollPosition = window.scrollY + window.innerHeight / 2;
 
     document.querySelectorAll("section[id]").forEach((section) => {
       const sectionTop = section.offsetTop;

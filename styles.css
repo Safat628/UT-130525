@@ -1,23 +1,25 @@
-/* ========== Section Background Colors ========== */
+/* ========== Section Background Colors START ========== */
 #home {
   background-color: #f0f9f0;
 }
 
 #about1 {
-  background-color: #f8f9fa;
+  background-color: #f8faf9;
 }
 
 #solution {
-  background-color: #f0f7fa;
+  background-color: #f0faf5;
 }
 
 .contact-section {
-  background-color: #f5f0fa;
+  background-color: #f0faf4;
 }
 
 .future-solutions.minimal {
   background-color: #faf5f0;
 }
+
+/* ========== Section Background Colors END ========== */
 
 /* ========== website color & additional START ========== */
 :root {
@@ -1474,7 +1476,7 @@ h4 {
 
 /* ===== Hamburger click open/close CSS END ===== */
 
-/* ===== Contact page  START ===== */
+/* ===== Contact page CSS START ===== */
 .contact-section {
   position: relative;
   padding: 40px 0;
@@ -1893,7 +1895,7 @@ h4 {
 
 /* ===== Contact page CSS END ===== */
 
-/* ====== Footer Section START ====== */
+/* ====== Footer Section CSS START ====== */
 .modern-footer {
   background: linear-gradient(135deg, #131323 0%, #0a0a15 100%);
   color: white;
@@ -2152,4 +2154,4 @@ h4 {
   }
 }
 
-/* ====== Footer Section END ====== */
+/* ====== Footer Section CSS END ====== */
