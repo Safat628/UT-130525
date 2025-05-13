@@ -956,8 +956,84 @@ h4 {
   margin-top: 2px;
 }
 
-/* Responsive Typography & Padding */
-@media (max-width: 768px) {
+/* Extra Large Screens (Desktops, TVs) - 1600px and up */
+@media (min-width: 1600px) {
+  .clients-section {
+    padding: 60px;
+  }
+
+  .clients-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .clients-section .subtitle {
+    font-size: 1.3rem;
+  }
+
+  .clients-list li {
+    font-size: 1.2rem;
+  }
+}
+
+/* Large Laptops and Desktops - 1200px to 1599px */
+@media (max-width: 1599px) {
+  .clients-section {
+    padding: 40px;
+  }
+
+  .clients-section h2 {
+    font-size: 2rem;
+  }
+
+  .clients-section .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .clients-list li {
+    font-size: 1rem;
+  }
+}
+
+/* Medium Devices - Tablets (Landscape) & Small Laptops - 992px to 1199px */
+@media (max-width: 1199px) {
+  .clients-section {
+    padding: 35px;
+  }
+
+  .clients-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .clients-section .subtitle {
+    font-size: 1rem;
+  }
+
+  .clients-list li {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small Tablets and Large Phones - 768px to 991px */
+@media (max-width: 991px) {
+  .clients-section {
+    padding: 30px;
+  }
+
+  .clients-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .clients-section .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .clients-list li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets & Phones Portrait - 481px to 767px */
+@media (max-width: 767px) {
   .clients-section {
     padding: 20px;
   }
@@ -975,6 +1051,7 @@ h4 {
   }
 }
 
+/* Small Phones - 320px to 480px */
 @media (max-width: 480px) {
   .clients-section {
     padding: 15px;
@@ -989,7 +1066,7 @@ h4 {
   }
 
   .clients-list li {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     flex-direction: row;
     align-items: flex-start;
   }
